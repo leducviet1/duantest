@@ -1,0 +1,306 @@
+body {
+  background-color: black;
+  color: white;
+}
+.search {
+  display: flex;
+  background-color: black;
+  height: 45px;
+}
+.middle {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 800px;
+}
+.thanhbentrai {
+  width: 3%;
+  height: 600px;
+  background-color: #1f1f1f;
+}
+
+.main {
+  width: 70%;
+  margin-left: 10px;
+  height: 600px;
+  background-color: #293847;
+  background-image: linear-gradient(#293847, #1f1f1f);
+}
+.extramain {
+  margin-left: 10px;
+  width: 27%;
+  height: 600px;
+  background-color: #1f1f1f;
+  overflow-y: scroll;
+}
+.playmusic {
+  display: flex;
+  background-color: black;
+  margin-top: -200px;
+  width: 100%;
+  height: 80px;
+  /* background-color: gray; */
+}
+.nuthome {
+  background-color: #1f1f1f;
+  margin-left: 500px;
+  width: 37px;
+  height: 40px;
+  border: hidden;
+  border-radius: 50px;
+}
+.timkiem {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: #1f1f1f;
+  color: white;
+}
+#timkiem1 {
+  margin-top: 5px;
+  margin-left: 4px;
+  background-color: #1f1f1f;
+  color: white;
+  border: hidden;
+}
+.timkiem ::placeholder {
+  color: #b3b3b3;
+}
+.headmain {
+  display: flex;
+  background-color: #293847;
+  width: 100%;
+  height: 200px;
+}
+.middlemain {
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+
+.footmain {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 100%;
+  height: 320px;
+}
+.anhcasi {
+  margin: 10px;
+}
+.anh {
+  margin-top: 6px;
+}
+.ablum {
+  margin: 5px;
+}
+.tenPlaylist {
+  margin: 5px 0px 0px 1px;
+}
+.fa-play {
+  color: green;
+  margin: 20px;
+  font-size: 30px;
+}
+.fa-shuffle {
+  font-size: 30px;
+  margin: 20px 0px 0px 0px;
+}
+.fa-circle-plus {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.fa-circle-down {
+  font-size: 30px;
+  margin-left: 0px;
+}
+.cacnutphai {
+  display: flex;
+  margin-left: 600px;
+}
+.fa-magnifying-glass {
+  margin: 20px;
+}
+.daubang {
+  display: flex;
+  width: 100%;
+  /* margin-top: -10px; */
+  height: 30px;
+}
+.tieude {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  margin-left: 20px;
+}
+#luotnghehientai {
+  margin-left: 370px;
+}
+.ablum2 {
+  margin-left: 85px;
+}
+.fa-clock {
+  margin-left: 270px;
+}
+.thanbang {
+  overflow-y: scroll;
+  width: 100%;
+  margin-left: -1000px;
+}
+.bai1 {
+  display: flex;
+}
+.bai1 img {
+  margin-left: 15px;
+}
+.bai2 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai2 img {
+  margin-left: 15px;
+}
+.bai3 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai4 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai5 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai6 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai7 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai8 {
+  display: flex;
+  margin-top: -30px;
+}
+.bai3 img {
+  margin-left: 15px;
+}
+.bai4 img {
+  margin-left: 15px;
+}
+.bai5 img {
+  margin-left: 15px;
+}
+.bai6 img {
+  margin-left: 15px;
+}
+.bai7 img {
+  margin-left: 15px;
+}
+.bai8 img {
+  margin-left: 15px;
+}
+.ablumcuthe {
+  margin-left: 450px;
+}
+.ablumcuthe1 {
+  margin-left: 440px;
+}
+.ablumcuthe2 {
+  margin-left: 440px;
+}
+.ablumcuthe3 {
+  margin-left: 420px;
+}
+.ablumcuthe4 {
+  margin-left: 450px;
+}
+.ablumcuthe5 {
+  margin-left: 410px;
+}
+.ablumcuthe6 {
+  margin-left: 370px;
+}
+.ablumcuthe7 {
+  margin-left: 420px;
+}
+.timecuthe {
+  margin-left: 250px;
+}
+.timecuthe1 {
+  margin-left: 235px;
+}
+.timecuthe2 {
+  margin-left: 140px;
+}
+.timecuthe3 {
+  margin-left: 210px;
+}
+.timecuthe4 {
+  margin-left: 250px;
+}
+.timecuthe5 {
+  margin-left: 200px;
+}
+.timecuthe6 {
+  margin-left: 170px;
+}
+.timecuthe7 {
+  margin-left: 200px;
+}
+.bai {
+  display: flex;
+  margin-top: 30px;
+}
+/* Toàn bộ scrollbar */
+.thanbang::-webkit-scrollbar {
+  width: 12px; /* Độ rộng của thanh cuộn dọc */
+  height: 12px; /* Độ rộng của thanh cuộn ngang */
+}
+
+/* Track của scrollbar (nền của thanh cuộn) */
+.thanbang::-webkit-scrollbar-track {
+  background: #293847; /* Màu nền của track */
+}
+.extramain::-webkit-scrollbar-track {
+  background: #293847;
+}
+.extramain::-webkit-scrollbar {
+  width: 12px; /* Độ rộng của thanh cuộn dọc */
+  height: 12px; /* Độ rộng của thanh cuộn ngang */
+}
+.nhacchinh {
+  /* background-color: red; */
+  margin-left: 200px;
+  width: 700px;
+}
+#thanhnhac {
+  accent-color: #b3b3b3;
+  height: 5px;
+
+  width: 490px;
+}
+.heart {
+  display: flex;
+  margin-left: 950px;
+}
+audio {
+  margin-left: 200px;
+  margin-bottom: 600px;
+}
+.fa-heart {
+  display: none;
+}
+#tym {
+  margin-left: 50px;
+}
+.thunho{
+  margin-left: 350px;
+  display: none;
+}
